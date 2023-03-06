@@ -1,0 +1,44 @@
+@media only screen and (max-width: 886px) {
+    .logo1{
+        width: 50%;
+    }
+
+    .icons{
+        width: 50%;
+    }
+
+    .items{
+        top: 100%;
+        left: 0;
+        width: 15%;
+        height: 179px;
+    }
+    .items-ul {
+        flex-direction: column;
+        /* float: left; */
+    }
+    .items>ul>li {
+        margin-bottom: 10px;
+    }
+
+    .back h1:nth-of-type(2) {
+        color: white;
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .image-slider .image-1 >img {
+        width: 210%;
+        height: 75vh;
+        /* float: left; */
+        margin-left: -249px;
+    }
+}
+
+@media only screen and (max-width: 751px) {
+    .items{
+        left: 15px;
+    }
+}
