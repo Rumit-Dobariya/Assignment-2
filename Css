@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    /* For first part */
+
+.navbar-1{
+    width: 100%;
+    height: 85px;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.logo1{
+    position: absolute;
+    /* background-color: red; */
+    height: 100%;
+    width: 20%;
+    left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.6; */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    z-index: 99999;
+
+}
+.logo1>a:hover ,.items>a:hover , .icons>a:hover{
+    text-shadow: 0px 0px 2px 2px black;
+}
+
+.items{
+    position: absolute;
+    /* background-color: rgb(166, 255, 0); */
+    height: 100%;
+    width: 55%;
+    left: 20%;
+    /* opacity: 0.6; */
+    color: white;
+    z-index: 99999;
+}
+
+.icons{
+    position: absolute;
+    /* background-color: rgb(0, 13, 255); */
+    height: 100%;
+    width: 25%;
+    right: 12px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* opacity: 0.6; */
+    color: white;
+    z-index: 99999;
+}
+
+/* For menus */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    /* color: black; */
+    color: rgb(0, 0, 0);
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items-ul{
+
+}
+.items>ul>li{
+    margin-right: 25px;
+}
+
+.icons > a{
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.image-slider .image-1 >img{
+    width: 100%;
+    height: 70vh;
+}
+
+.back{
+    position: absolute;
+    top: 26%;
+    left: 33%;
+}
+.back h1:nth-of-type(1){
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.back h1:nth-of-type(2){
+    color: white;
+    font-size: 50px;
+}
+
+
+
+.card-img {
+    height: 100vh;
+}
+.card{
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.nimg1{
+    left: 27%;
+    top: 28%;
+}
+.nimg2{
+    left: 27.5%;
+    top: 28%;
+}
+.nimg3{
+    left: 27.5%;
+    top: 28%;
+}
+.nimg4{
+    left: 27.5%;
+    top: 28%;
+}
+
+.cmn-image{
+
+}
+.img-text{
+    /* display: inline-block; */
+    /* position: absolute; */
+    position: fixed;
+    
+    text-align: center;
+    /* right: 48%;
+    top: 26%; */
+}
+.image-1{
+    /* position: relative; */
+}
+
+.d-arrow{
+    /* position: absolute; */
+    /* top: 110%;
+    left: 50%; */
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 33%;
+    /* width: 10%; */
+    text-align: center;
+    /* height: 26%; */
+    font-size: 34px;
+    opacity: 0.7;
+}
+
+.button-1 {
+    position: absolute;
+    width: 10%;
+    background: chocolate;
+    text-align: center;
+    right: 10px;
+    top: 79%;
+    transform: rotate(270deg);
+    z-index: 99999;
+    font-weight: bold;
+}
