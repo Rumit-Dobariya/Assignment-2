@@ -25,6 +25,10 @@
         color: white;
         font-size: 30px;
     }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -35,10 +39,93 @@
         /* float: left; */
         margin-left: -249px;
     }
+    .button-1{
+        width: 15%;
+    }
 }
 
 @media only screen and (max-width: 751px) {
     .items{
         left: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 1210px){
+    .second-part .text p{
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 863px) {
+    .text{
+        height: 25%;
+    }
+    .card-menus{
+        height: 75%;
+    }
+    .second-part{
+        height: 200vh;
+    }
+    .cards .card {
+        margin-top: 15px;
+    }
+    .third-part{
+        position: absolute;
+        top: 279%;
+    }
+    .fourth-part{
+        position: absolute;
+        top: 395%;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .second-part {
+        height: 265vh;
+    }
+    .text{
+        height: 20%;
+    }
+    .card-menus{
+        height: 80%;
+    }
+    .third-part{
+        position: absolute;
+        top: 342%;
+    }
+    .fourth-part{
+        position: absolute;
+        top: 523%;
+    }
+    
+}
+@media only screen and (max-width: 830px) {
+    .row1{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 740px) {
+    .button-1{
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 823px) {
+    .fourth-part{
+        position: absolute;
+        top: 470%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .fourth-part{
+        position: absolute;
+        top: 531%;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .for-eggs{
+        flex-wrap: wrap;
     }
 }
